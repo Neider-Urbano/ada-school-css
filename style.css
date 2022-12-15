@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  width: 900px;
+}
+.section-uno {
+  background: #1b085c;
+  width: 40%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-dos {
+  width: 60%;
+  background: #bebdc3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 30px;
+}
+.imgNeider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.imgNeider img {
+  width: 100%;
+}
+.contact {
+  margin-top: 10px;
+  text-align: center;
+  color: #ffff;
+  width: 100%;
+}
+.information-contact {
+  display: flex;
+  grid-row-gap: 25px;
+  flex-direction: column;
+}
+.information-contact article {
+  display: flex;
+  grid-column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.information-contact article div {
+  background: #ffff;
+  width: 30%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 0px;
+}
+.information-contact article div img {
+  width: 30px;
+  margin-left: 30px;
+}
+.information-contact article h1,
+.information-contact article a {
+  width: 70%;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+.habilidades,
+.softwares {
+  margin-top: 30px;
+  color: #ffffff;
+  width: 100%;
+}
+.habilidades h1,
+.softwares h1 {
+  text-align: center;
+}
+.habilidades article,
+.softwares article {
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 15px;
+  margin-top: 20px;
+}
+.habilidades article .habilidaes-div,
+.softwares article .software-div {
+  display: flex;
+  height: 13px;
+}
+.habilidades article .habilidaes-div p,
+.softwares article .software-div p {
+  width: 40%;
+}
+.porcentaje-uno {
+  background: #1d182f;
+  width: 60%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.porcentaje-dos {
+  width: 85%;
+  background: white;
+  height: 100%;
+  border-radius: 10px;
+}
+.hobbies {
+  width: 100%;
+  margin-top: 30px;
+  color: #ffff;
+}
+.hobbies h1 {
+  text-align: center;
+}
+.hobbies article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 15px;
+  margin-top: 20px;
+}
+.hobbies article div {
+  background: #ffffff;
+  padding: 7px 4px;
+  border-radius: 10px;
+}
+.hobbies article div img {
+  width: 30px;
+}
+.nombre {
+  width: 100px;
+  text-align: center;
+  color: #1b085c;
+}
+.nombre span {
+  color: #1d182f;
+}
+.information-perfil {
+  margin-top: 20px;
+}
+.information-perfil h2 {
+  color: #1b085c;
+}
+.div-information-personal,
+.div-education,
+.div-experiencia {
+  margin-top: 20px;
+}
+.div-education {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 15px;
+}
+.div-information-personal h1,
+.div-education h1,
+.div-experiencia h1 {
+  padding: 5px 10px;
+  margin-top: 20px;
+  background: #1b085c;
+  width: 270px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.information-education {
+  display: flex;
+}
+.information-education h2 {
+  color: rgb(50, 50, 50);
+  width: 15%;
+}
+.information-education div {
+  margin-left: 20px;
+  width: 85%;
+}
+.div-experiencia {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 20px;
+}
+.information-experiencia {
+  display: flex;
+}
+.information-experiencia h2 {
+  width: 15%;
+  color: rgb(50, 50, 50);
+}
+.information-experiencia div {
+  margin-left: 15px;
+  width: 85%;
+}
+.information-experiencia div p:nth-child(3) {
+  margin-top: 6px;
+}
